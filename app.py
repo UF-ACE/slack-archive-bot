@@ -1,5 +1,4 @@
 from slackeventsapi import SlackEventAdapter
-from slackclient import SlackClient
 import os
 
 # Our app's Slack Event Adapter for receiving actions via the Events API
