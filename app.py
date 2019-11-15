@@ -14,7 +14,7 @@ slack_client = SlackClient(slack_bot_token)
 def handle_message(event_data):
     message = event_data["event"]
     
-    # Prints lates message to console
+    # Prints latest message to console
     print(message.get('text'))
 
 # Error events
